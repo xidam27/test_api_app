@@ -15,7 +15,7 @@ default: &default
   pool: 5
   username: root
   password: passwd
-  host: 192.168.57.175
+  host: mbc-mysql.service.dc1.consul
 
 development:
   <<: *default
